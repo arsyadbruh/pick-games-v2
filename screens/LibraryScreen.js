@@ -10,10 +10,7 @@ import {
   Spinner,
   FlatList,
   HStack,
-  View,
   Heading,
-  Image,
-  AspectRatio,
   Icon,
 } from "native-base";
 import { Header, GameCardItem } from "../components";
@@ -285,12 +282,15 @@ class LibraryScreen extends React.PureComponent {
             keyExtractor={(item) => item.id.toString()}
             renderItem={({ item }) => <GameCardItem data={item} />}
             bg={"#2a2e33"}
-            onRefresh={() => {
-              this.setState({
-                isLoading: true, 
-                isRefresh: true
-              })
-            }, () => this.getListGameWithFilter()}
+            onRefresh={
+              (() => {
+                this.setState({
+                  isLoading: true,
+                  isRefresh: true,
+                });
+              },
+              () => this.getListGameWithFilter())
+            }
             refreshing={isRefresh}
           />
         )}

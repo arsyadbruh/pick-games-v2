@@ -1,4 +1,3 @@
-import React from "react";
 import { NativeBaseProvider, StatusBar } from "native-base";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -69,7 +68,7 @@ export default function App() {
   return (
     <NativeBaseProvider>
       <NavigationContainer>
-        <StatusBar backgroundColor={"#2a2e33"}/>
+        <StatusBar backgroundColor={"#272b30"}/>
         <Stack.Navigator screenOptions={{ headerShown: "false" }}>
           <Stack.Screen name="BottomNavigator" component={BottomNavigator} options={{ headerShown: false }} />
           <Stack.Screen name="GameDetailScreen" component={GameDetailScreen} options={{ headerShown: false }} />

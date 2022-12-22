@@ -15,7 +15,7 @@ import {
 import { Linking, Share } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { FontAwesome5 } from "@expo/vector-icons";
-import {Header, ReadMore} from "../components";
+import { Header, ReadMore } from "../components";
 
 class GameDetailScreen extends React.PureComponent {
   constructor(props) {
@@ -61,7 +61,7 @@ class GameDetailScreen extends React.PureComponent {
   }
 
   render() {
-    const {isLoading, detailGame} = this.state;
+    const { isLoading, detailGame } = this.state;
     return (
       <>
         <Header title={"Game Detail"} withBackBtn={true} />

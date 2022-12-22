@@ -1,17 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Center,
-  Text,
-  Image,
-  Spinner,
-  FlatList,
-  AspectRatio,
-  View,
-  Heading,
-  HStack,
-} from "native-base";
-import { TouchableOpacity } from "react-native";
+import { Center, Spinner, FlatList } from "native-base";
 import { Header, GameCardItem } from "../components";
 
 class HomeScreen extends React.PureComponent {
