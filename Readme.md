@@ -2,6 +2,11 @@
 
 Update from [PickGames](https://github.com/arsyadbruh/pick-games/)
 
+Whats New:
+
+- Update Expo SDK 47
+- Change from **functional component** to **class component**
+
 ## Disclaimer
 
 Pembuatan aplikasi ini sebagai pembalajaran pengembangan aplikasi bergerak menggunakan React Native. Setiap modifikasi dan segalanya pada aplikasi ini bersifat bebas.
@@ -28,4 +33,4 @@ untuk menginstall silahkan clone atau download repository ini dan jalankan comma
 npm install
 ```
 
-atau install aplikasi Expo Go di smartphone dan scan dari link berikut. [Pick Games in Expo](https://expo.dev/@jafrick/pick-games).
+atau install aplikasi Expo Go di smartphone dan scan dari link berikut. [Pick Games in Expo](https://snack.expo.dev/@jafrick/pick-games-v2).
