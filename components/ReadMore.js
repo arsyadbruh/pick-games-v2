@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import { Text, View } from "native-base";
 import { TouchableOpacity } from "react-native";
 
+/**
+ * 
+ * @param {string} text Text yang akan di tampilkan
+ * @param {int} slice jumlah character yang akan ditampilkan saat mode truncate
+ * @returns 
+ */
 const ReadMore = ({ text, slice=250 }) => {
   const [readMore, setReadMore] = useState(true);
   return (
