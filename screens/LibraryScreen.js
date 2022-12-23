@@ -191,7 +191,7 @@ class LibraryScreen extends React.PureComponent {
         {/* Platform */}
         <Box bg={"#2a2e33"} px={5}>
           <HStack space={5}>
-            <Text color={"white"}>Platform</Text>
+            <Text color={"white"} fontWeight={"bold"} fontSize={"16px"}>Platform</Text>
             <QuickFilterButton
               value={this.platform}
               filterValue="pc"
